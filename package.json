@@ -19,16 +19,25 @@
     "fire",
     "@angular/fire"
   ],
-  "author": "Muhammad bin Yusrat <info@muhammadbinyusrat.com> (https://www.muhammadbinyusrat.com)",
-  "license": "ISC",
+  "author": "Aurangseb Malik <aurangseb@gmail.com>",
+  "contributors": [
+    "Muhammad bin Yusrat <info@muhammadbinyusrat.com>"
+  ],
+  "license": "GPL",
   "bugs": {
-    "url": "https://github.com/ibnyusrat/angularfire-paginator/issues"
+    "url": "https://github.com/aurangseb/angularfire-paginator/issues"
   },
-  "homepage": "https://github.com/ibnyusrat/angularfire-paginator#readme",
-  "dependencies": {
-    "@angular/core": "^9.1.12",
-    "@angular/fire": "^5.4.2",
-    "firebase": "^7.22.1",
+  "homepage": "https://github.com/aurangseb/angularfire-paginator#readme",
+  "peerDependencies": {
+    "@angular/core": ">=9.0.0 <=11.0.0",
+    "@angular/fire": "=>5.4.2 <=7.0.0",
+    "firebase": ">=7.0.0 <=8.0.0",
     "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "@angular/core": "^10.2.0",
+    "@angular/fire": "^6.0.3",
+    "firebase": "^7.24.0",
+    "rxjs": "^6.6.3"
   }
 }
